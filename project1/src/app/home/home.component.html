@@ -1,0 +1,10 @@
+<!-- home.component.html -->
+<div>
+    <h1>Home</h1>
+    <mat-form-field appearance="fill">
+      <mat-label>Enter your name</mat-label>
+      <input matInput [(ngModel)]="name"> <!-- two-way data binding-->
+    </mat-form-field>
+    <button mat-raised-button (click)="saveName()">Save</button>
+    <p *ngIf="savedName">Saved Name: {{ savedName }}</p>
+  </div>  

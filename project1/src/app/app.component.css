@@ -1,0 +1,13 @@
+mat-toolbar {
+  background-color: blue; /* Cambia questo in qualsiasi colore desideri */
+  color: white; /* Cambia il colore del testo se necessario */
+}
+
+.spacer {
+    flex: 1 1 auto;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
